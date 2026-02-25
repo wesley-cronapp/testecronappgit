@@ -7,28 +7,25 @@ import java.util.concurrent.Callable;
 
 @CronapiMetaData(type = "blockly")
 @CronappSecurity
-public class Application {
+public class Block {
 
 public static final int TIMEOUT = 300;
 
 /**
  *
- * Application
- *
  * @author Root
- * @since 25/02/2026, 09:53:45
+ * @since 25/02/2026, 14:09:44
  *
  */
-public static Var Current() throws Exception {
+public static Var Execute() throws Exception {
  return new Callable<Var>() {
 
    private Var item = Var.VAR_NULL;
 
    public Var call() throws Exception {
     item =
-    Var.valueOf("");
-    return
-cronapi.util.Operations.getApplicationId();
+    Var.valueOf("testee");
+    return Var.VAR_NULL;
    }
  }.call();
 }
