@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><blockly audit="false" blocklyType="JAVA" bpmnAble="false" formTarget="" functionCategory="" linkHelp="" multilayer="false" resourceType="JAVA" ruleDescription="Block" ruleName="Block" ruleSynchronous="false" ruleTimeout="" ruleType="I" showAsFunction="false" soap="false" swagger="false">
+  <metadata scale="1" scrollx="481.0000000000002" scrolly="-53.19999999999982" target="Anb:u5+^,0vLkL9QIqn5"/>
+  <block asynccall="false" colour="#995ba5" datasourcetype="" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" score="9007199254740991" tooltip="Creates a function with an output." type="procedures_defreturn" valueconstant="" x="-350" y="130">
+    <field customattributes="" name="NAME">Execute</field>
+    <statement name="STACK">
+      <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="tMie#B4jznR(ZC$E(kvl" origintype="variables_set" output="false" score="9007199254740991" tooltip="Sets this variable to be equal to the input." type="variables_set" valueconstant="">
+        <field customattributes="" name="VAR">item</field>
+        <value name="VALUE">
+          <block asynccall="false" colour="#5b93a5" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="N}e1}f7xg73$9l{1QqN;" origintype="text_i18n" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text_i18n" valueconstant="">
+            <mutation data="null" name=""/>
+            <field customattributes="" name="TEXT"/>
+          </block>
+        </value>
+        <next>
+          <block asynccall="false" colour="#0088ee" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="?,f8By$an2/lgL9!0x$}" origintype="variables_set" output="false" score="9007199254740991" tooltip="Sets this variable to be equal to the input." type="variables_set" valueconstant="">
+            <field customattributes="" name="VAR">item</field>
+            <value name="VALUE">
+              <block asynccall="false" colour="#5ba593" datasourcetype="" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="+uzXpR-ucpA#Az~fG.P*" origintype="text" output="true" score="9007199254740991" tooltip="function () { [native code] }" type="text" valueconstant="">
+                <field customattributes="" name="TEXT"/>
+              </block>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</blockly>
