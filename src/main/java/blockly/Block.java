@@ -14,7 +14,7 @@ public static final int TIMEOUT = 300;
 /**
  *
  * @author Root
- * @since 25/02/2026, 14:09:44
+ * @since 25/02/2026, 14:32:34
  *
  */
 public static Var Execute() throws Exception {
@@ -23,6 +23,8 @@ public static Var Execute() throws Exception {
    private Var item = Var.VAR_NULL;
 
    public Var call() throws Exception {
+    item =
+    Var.valueOf("testee");
     item =
     Var.valueOf("testee");
     return Var.VAR_NULL;
