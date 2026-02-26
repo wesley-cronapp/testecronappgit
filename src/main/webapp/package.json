@@ -10,10 +10,10 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@cronapp/framework-core": "4.4.0-SNAPSHOT.20260224230117",
-    "cronapi-js": "4.4.0-SNAPSHOT.20260224230117",
-    "cronapp-common-js": "4.4.0-SNAPSHOT.20260224230117",
-    "cronapp-framework-js": "4.4.0-SNAPSHOT.20260224230117",
-    "cronapp-lib-js": "4.4.0-SNAPSHOT.20260224230117"
+    "@cronapp/framework-core": "4.4.0-SNAPSHOT.20260225230114",
+    "cronapi-js": "4.4.0-SNAPSHOT.20260225230114",
+    "cronapp-common-js": "4.4.0-SNAPSHOT.20260225230114",
+    "cronapp-framework-js": "4.4.0-SNAPSHOT.20260225230114",
+    "cronapp-lib-js": "4.4.0-SNAPSHOT.20260225230114"
   }
 }
